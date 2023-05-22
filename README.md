@@ -1308,4 +1308,173 @@ for filename in filenames:
 
 ```
 
+## Making Choices
+```python
+import numpy
+```
+
+
+```python
+data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+
+```
+
+
+```python
+max_inflammation_0 = numpy.amax(data, axis=0)[0]
+
+```
+
+
+```python
+max_inflammation_20 = numpy.amax(data, axis=0)[20]
+
+if max_inflammation_0 == 0 and max_inflammation_20 == 20:
+    print('saspictious looking maxima!')
+```
+
+    saspictious looking maxima!
+
+
+
+```python
+max_inflammation_20 = numpy.amax(data, axis=0)[20]
+
+if max_inflammation_0 == 0 and max_inflammation_20 == 20:
+     print('saspictious looking maxima!')
+        
+elif numpy.sum(numpy.amin(data, axis=0)) == 0:
+    print('Minima add up to zero!')
+    
+else:
+        print('Seems OK!')
+        
+```
+
+    saspictious looking maxima!
+
+
+
+```python
+data = numpy.loadtxt(fname='inflammation-03.csv', delimiter=',')
+
+max_inflammation_0 = numpy.amax(data, axis=0)[0]
+
+max_inflammation_20 = numpy.amax(data, axis=0)[20]
+
+if max_inflammation_0 == 0 and max_inflammation_20 == 20:
+     print('saspictious looking maxima!')
+elif numpy.sum(numpy.amin(data, axis=0)) == 0:
+    print('Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!')        
+
+else:
+        print('Seems OK!')
+```
+
+    Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!
+
+
+
+```python
+
+```
+
+
+```python
+
+```
+## Functions Part 1 and 2
+
+```python
+import numpy
+import matplotlib
+import matplotlib.pyplot
+import glob
+```
+
+
+```python
+def visualize(filename):
+
+    data = numpy.loadtxt(fname=filename, delimiter=',')
+
+    fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
+
+    axes1 = fig.add_subplot(1, 3, 1)
+    axes2 = fig.add_subplot(1, 3, 2)
+    axes3 = fig.add_subplot(1, 3, 3)
+
+    axes1.set_ylabel('average')
+    axes1.plot(numpy.mean(data, axis=0))
+
+    axes2.set_ylabel('max')
+    axes2.plot(numpy.amax(data, axis=0))
+
+    axes3.set_ylabel('min')
+    axes3.plot(numpy.amin(data, axis=0))
+
+    fig.tight_layout()
+    matplotlib.pyplot.show()
+```
+
+
+```python
+def detect_problems(filename):
+
+    data = numpy.loadtxt(fname=filename, delimiter=',')
+
+    if numpy.amax(data, axis=0)[0] == 0 and numpy.amax(data, axis=0)[20] == 20:
+        print('Suspicious looking maxima!')
+    elif numpy.sum(numpy.amin(data, axis=0)) == 0:
+        print('Minima add up to zero!')
+    else:
+        print('Seems OK!')
+```
+
+
+```python
+filenames = sorted(glob.glob('inflammation*.csv'))
+
+for filename in filenames[:3]:
+    print(filename)
+    visualize(filename)
+    detect_problems(filename)
+```
+
+    inflammation-01.csv
+
+
+
+![png](output_3_1.png)
+
+
+    Suspicious looking maxima!
+    inflammation-02.csv
+
+
+
+![png](output_3_3.png)
+
+
+    Suspicious looking maxima!
+    inflammation-03.csv
+
+
+
+![png](output_3_5.png)
+
+
+    Minima add up to zero!
+
+
+
+```python
+
+```
+
+
+```python
+
+```
+
 
