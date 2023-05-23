@@ -1278,21 +1278,21 @@ for filename in filenames:
     matplotlib.pyplot.show()
 ```
 
-    inflammation-01.csv
+   ![output_2_1](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/ea241a8b-c950-473e-b9da-996422cca119)
 
 
 
     <Figure size 1000x300 with 3 Axes>
 
 
-    inflammation-02.csv
+   ![output_2_3](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/a1feaff5-ae62-4d63-ad3b-ec2ccfe8eeab)
 
 
 
     <Figure size 1000x300 with 3 Axes>
 
 
-    inflammation-03.csv
+ ![output_2_5](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/8a4b1952-53ed-43d9-8867-4b2b02d6962b)
 
 
 
