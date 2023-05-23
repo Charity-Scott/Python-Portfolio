@@ -899,8 +899,7 @@ matplotlib.pyplot.show()
 ```
 
 
-![png](output_1_0.png)
-
+![output_1_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/3ddae792-5cb4-46f7-ab9b-3de28b53de11)
 
 
 ```python
@@ -912,7 +911,7 @@ matplotlib.pyplot.show()
 ```
 
 
-![png](output_2_0.png)
+![output_2_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/3d5a9839-59b9-4cd7-a8c2-bd80bbe4a704)
 
 
 
@@ -922,7 +921,7 @@ matplotlib.pyplot.show()
 ```
 
 
-![png](output_3_0.png)
+![output_3_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/84551449-e845-4c77-98e8-48fdfd0d0f97)
 
 
 
@@ -932,7 +931,8 @@ matplotlib.pyplot.show()
 ```
 
 
-![png](output_4_0.png)
+![output_4_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/d6c9b64d-7c09-47f8-91b4-1a7eb79ce5e0)
+
 
 
 
@@ -959,7 +959,7 @@ matplotlib.pyplot.show()
 ```
 
 
-![png](output_5_0.png)
+![output_5_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/9c872d97-f1fd-4922-a29e-244299e95101)
 
 
 
