@@ -403,7 +403,6 @@ bin_sizes, _, _=plt.hist(df.year[non_numeric_profits], bins= range(1955, 2006) )
 
 ![png](output_11_0.png)
 
-https://github.com/Charity-Scott/Python-Portfolio.git
 
 
 ```python
