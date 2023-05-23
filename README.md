@@ -471,7 +471,7 @@ plot(x, y2, ax, 'Increase in mean Fortune 500 company revenues from 1955 to 2005
 ```
 
 
-![png](output_17_0.png)
+![output_17_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/374d83eb-2a9a-4c78-abad-060654f422c4)
 
 
 
