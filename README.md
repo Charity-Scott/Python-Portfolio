@@ -1446,7 +1446,7 @@ for filename in filenames[:3]:
 
 
 
-![png](output_3_1.png)
+![output_3_1](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/3d50af8f-fbd7-428b-aa22-6817b8907694)
 
 
     Suspicious looking maxima!
@@ -1454,7 +1454,8 @@ for filename in filenames[:3]:
 
 
 
-![png](output_3_3.png)
+![output_3_3](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/8a207c8e-a676-44b3-87fa-a6acb0ed3cb7)
+
 
 
     Suspicious looking maxima!
@@ -1462,7 +1463,7 @@ for filename in filenames[:3]:
 
 
 
-![png](output_3_5.png)
+![output_3_5](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/ba0ce017-8500-4e80-aed9-bcfb95be6f21)
 
 
     Minima add up to zero!
