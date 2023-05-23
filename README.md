@@ -401,7 +401,6 @@ bin_sizes, _, _=plt.hist(df.year[non_numeric_profits], bins= range(1955, 2006) )
 ```
 
 
-![png](output_11_0.png)
 
 ![download](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/b5fc3756-8cd2-455a-b7cb-6b093f60f382)
 
@@ -634,8 +633,6 @@ print('weight in kilograms is now:', weight_kg)
     weight in kilograms is now: 65.0
 
 
-
-```python
 
 
 
@@ -956,15 +953,6 @@ matplotlib.pyplot.show()
 
 
 
-```python
-
-```
-
-
-```python
-
-```
-
 
 
 ## Storing Values in Lists
@@ -1117,15 +1105,6 @@ print('Omitting ending index:', sond)
     Omitting ending index: ['sep', 'oct', 'nov', 'dec']
 
 
-
-```python
-
-```
-
-
-```python
-
-```
 ## Using Loops
 
 ```python
@@ -1217,14 +1196,6 @@ print(len(name))
 ```
 
 
-```python
-
-```
-
-
-```python
-
-```
 ## Using Multiple Files
 
 ```python
@@ -1275,32 +1246,20 @@ for filename in filenames:
 
 
 
-    <Figure size 1000x300 with 3 Axes>
 
 
    ![output_2_3](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/a1feaff5-ae62-4d63-ad3b-ec2ccfe8eeab)
 
 
 
-    <Figure size 1000x300 with 3 Axes>
 
 
  ![output_2_5](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/8a4b1952-53ed-43d9-8867-4b2b02d6962b)
 
 
 
-    <Figure size 1000x300 with 3 Axes>
 
 
-
-```python
-
-```
-
-
-```python
-
-```
 
 ## Making Choices
 ```python
@@ -1368,15 +1327,6 @@ else:
     Minima add up to zero! -> HEALTHY PARTICIPANT ALERT!
 
 
-
-```python
-
-```
-
-
-```python
-
-```
 ## Functions Part 1 and 2
 
 ```python
@@ -1463,14 +1413,6 @@ for filename in filenames[:3]:
 
 
 
-```python
-
-```
-
-
-```python
-
-```
 ## Functions Part 3
 ```python
 def offset_mean(data, target_mean_value):
@@ -1566,15 +1508,6 @@ def offset_mean(data, target_mean_value):
 help(offset_mean)
 ```
 
-
-```python
-
-```
-
-
-```python
-
-```
 
 
 ## functions Part 4
@@ -1794,14 +1727,7 @@ help(numpy.loadtxt)
 
 
 
-```python
 
-```
-
-
-```python
-
-```
 ## Defensive Programming
 
 ```python
@@ -1886,20 +1812,6 @@ print(normalize_rectangle( (0.0, 0.0, 1.0, 5.0) ))
 print(normalize_rectangle( (0.0, 0.0, 5.0, 1.0) ))
 ```
 
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
 ## Transcribing DNA into RNA
 
 ```python
@@ -1966,9 +1878,6 @@ print(rna_sequence)
 
 
 
-```python
-
-```
 
 ## Translating RNA into Protein
 
@@ -2057,11 +1966,5 @@ print(protein_sequence)
 ```
 
      MAAVKKEGGALSEAMSLEGDEWELSKENVQPLRQGRIMSTLQGALAQESACNNTLQQQKRAFEYEIRFYTGNDPLDVWDRYISWTEQNYPQGGKESNMSTLLERAVEALQGEKRYYSDPRFLNLWLKLGRLCNEPLDMYSYLHNQGIGVSLAQFYISWAEEYEARENFRKADAIFQEGIQQKAEPLERLQSQHRQFQARVSRQTLLALEKEEEEEVFESSVPQRSTLAELKSKGKKTARAPIIRVGGALKAPSQNRGLQNPFPQQMQNNSRITVFDENADEASTAELSKPTVQPWIAPPMPRAKENELQAGPWNTGRSLEHRPRGNTASLIAVPAVLPSFTPYVEETARQPVMTPCKIEPSINHILSTRKPGKEEGDPLQRVQSHQQASEEKKEKMMYCKEKIYAGVGEFSFEEIRAEVFRKKLKEQREAELLTSAEKRAEMQKQIEEMEKKLKEIQTTQQERTGDQQEETMPTKETTKLQIASESQKIPGMTLSSSVCQVNCCARETSLAENIWQEQPHSKGPSVPFSIFDEFLLSEKKNKSPPADPPRVLAQRRPLAVLKTSESITSNEDVSPDVCDEFTGIEPLSEDAIITGFRNVTICPNPEDTCDFARAARFVSTPFHEIMSLKDLPSDPERLLPEEDLDVKTSEDQQTACGTIYSQTLSIKKLSPIIEDSREATHSSGFSGSSASVASTSSIKCLQIPEKLELTNETSENPTQSPWCSQYRRQLLKSLPELSASAELCIEDRPMPKLEIEKEIELGNEDYCIKREYLICEDYKLFWVAPRNSAELTVIKVSSQPVPWDFYINLKLKERLNEDFDHFCSCYQYQDGCIVWHQYINCFTLQDLLQHSEYITHEITVLIIYNLLTIVEMLHKAEIVHGDLSPRCLILRNRIHDPYDCNKNNQALKIVDFSYSVDLRVQLDVFTLSGFRTVQILEGQKILANCSSPYQVDLFGIADLAHLLLFKEHLQVFWDGSFWKLSQNISELKDGELWNKFFVRILNANDEATVSVLGELAAEMNGVFDTTFQSHLNKALWKVGKLTSPGALLFQ
-
-
-
-```python
-
-```
 
 
