@@ -491,7 +491,7 @@ fig.tight_layout()
 ```
 
 
-![png](output_18_0.png)
+![output_18_0](https://github.com/Charity-Scott/Python-Portfolio/assets/134242562/2da16979-2a27-4a0a-9755-c1bd1c457df1)
 
 
 
